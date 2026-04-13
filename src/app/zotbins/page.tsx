@@ -36,7 +36,7 @@ export default function ZotbinsPage() {
       <main className="max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12">
         {/* Video Caption */}
         <p className="text-xs text-[#F7DC6F] mb-4">
-          taipei streets in 2025
+          la jolla cove in 2026 with seals
         </p>
         
         {/* App Download Link */}
