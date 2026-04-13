@@ -226,7 +226,7 @@ export default function Home() {
               <span className="text-[#ece1c9]">•</span>
               <span className="text-[#ece1c9]">talking</span>
               <span className="text-[#ece1c9]">•</span>
-              <span className="text-[#ece1c9]">picking out good edits from bad edits</span>
+              <span className="text-[#ece1c9]">picking out good edits</span>
             </div>
           </div>
         </div>
