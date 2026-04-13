@@ -63,7 +63,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-8 flex justify-between items-center sticky top-0 z-50">
         <a href="#" className="flex items-center gap-2">
-          <img src="/gracelogo.png" alt="Grace Jong Logo" className="h-16 w-auto" />
+          <img src="/favicon.png" alt="Grace Jong Logo" className="h-12 w-auto" />
           <span className="font-medium text-base md:text-lg">grace jong</span>
         </a>
         <div className="flex gap-4 md:gap-6 text-sm md:text-base">
