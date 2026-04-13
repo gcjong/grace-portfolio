@@ -45,7 +45,7 @@ export default function KnickKnackPage() {
         {/* Slide Deck Link */}
         <div className="glass-box backdrop-blur-sm rounded-2xl p-4 md:p-6 bg-white/[0.03] hover:bg-white/[0.01] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3),0_0_40px_rgba(255,255,255,0.2)] mb-8 md:mb-12">
           <p className="text-[#ece1c9] text-sm md:text-base mb-2">
-            don't want to read? here is my slide deck!
+            interested in more? here is my slide deck!
           </p>
           <a 
             href="https://canva.link/jumxdj27bobskye"
