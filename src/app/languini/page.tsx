@@ -60,7 +60,7 @@ export default function LanguiniPage() {
         {/* Logo Section */}
         <div className="mb-8 md:mb-12 flex justify-center">
           <img 
-            src="/app-logo-1.png" 
+            src="/languini.png" 
             alt="languini logo" 
             className="w-32 h-32 md:w-48 md:h-48 object-contain"
           />
