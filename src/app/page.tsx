@@ -139,7 +139,7 @@ export default function Home() {
               <div>
                 <Link href="/languini" className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
-                    <img src="/App%20Logo%201.png" alt="Languini Logo" className="w-full h-full object-contain" />
+                    <img src="/app-logo-1.png" alt="Languini Logo" className="w-full h-full object-contain" />
                   </div>
                   <span className="text-lg md:text-xl font-medium mb-2 hover:underline cursor-pointer">
                     languini
