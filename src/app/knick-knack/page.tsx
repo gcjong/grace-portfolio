@@ -18,7 +18,10 @@ export default function KnickKnackPage() {
 
       {/* Navigation */}
       <nav className="max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-8 flex justify-between items-center sticky top-0 z-50">
-        <Link href="/" className="font-medium text-base md:text-lg hover:underline">grace jong</Link>
+        <Link href="/" className="flex items-center gap-2">
+          <img src="/favicon.png" alt="Grace Jong Logo" className="h-12 w-auto" />
+          <span className="font-medium text-base md:text-lg">grace jong</span>
+        </Link>
         <div className="flex gap-4 md:gap-6 text-sm md:text-base">
           <Link href="/#work" className="hover:underline">work</Link>
           <Link href="/#about" className="hover:underline">about</Link>
