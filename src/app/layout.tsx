@@ -21,6 +21,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Grace Jong — Product Designer & Software Engineer",
   description: "Portfolio of Grace Jong, a Software Engineering student at UC Irvine passionate about UI/UX design.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", sizes: "32x32" },
+      { url: "/favicon.png", sizes: "192x192" },
+      { url: "/favicon.png", sizes: "512x512" },
+      { url: "/favicon.png", sizes: "1024x1024" },
+    ],
+    apple: [
+      { url: "/favicon.png", sizes: "180x180" },
+      { url: "/favicon.png", sizes: "512x512" },
+    ],
+  },
 };
 
 export default function RootLayout({
