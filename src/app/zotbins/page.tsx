@@ -1,0 +1,145 @@
+'use client';
+
+import Link from 'next/link';
+
+export default function ZotbinsPage() {
+  return (
+    <div className="min-h-screen text-[#ece1c9] relative leading-relaxed font-eb-garamond">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed top-0 left-0 w-full h-full object-cover -z-20"
+        style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: -20, opacity: 0.95 }}
+      >
+        <source src="/seals.mp4" type="video/mp4" />
+      </video>
+
+      {/* Navigation */}
+      <nav className="max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-8 flex justify-between items-center sticky top-0 z-50">
+        <Link href="/" className="font-medium text-base md:text-lg hover:underline">grace jong</Link>
+        <div className="flex gap-4 md:gap-6 text-sm md:text-base">
+          <Link href="/#work" className="hover:underline">work</Link>
+          <Link href="/#about" className="hover:underline">about</Link>
+        </div>
+      </nav>
+
+      {/* Back Link */}
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-8 md:py-12">
+        <Link href="/#work" className="text-[#ece1c9] hover:underline text-sm md:text-base">
+          ← back to projects
+        </Link>
+      </div>
+
+      {/* Main Content */}
+      <main className="max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12">
+        {/* Video Caption */}
+        <p className="text-xs text-[#F7DC6F] mb-4">
+          taipei streets in 2025
+        </p>
+        
+        {/* App Download Link */}
+        <div className="glass-box backdrop-blur-sm rounded-2xl p-4 md:p-6 bg-white/[0.03] hover:bg-white/[0.01] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3),0_0_40px_rgba(255,255,255,0.2)] mb-8 md:mb-12">
+          <p className="text-[#ece1c9] text-sm md:text-base mb-2">
+            want to download the app?
+          </p>
+          <a 
+            href="https://apps.apple.com/zw/app/zotbins/id6743295314"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#ece1c9] hover:underline text-sm md:text-base"
+          >
+            download on app store →
+          </a>
+        </div>
+        
+        {/* Logo Section */}
+        <div className="mb-8 md:mb-12 flex justify-center">
+          <img 
+            src="/zotbins.png" 
+            alt="zotbins logo" 
+            className="w-32 h-32 md:w-48 md:h-48 object-contain"
+          />
+        </div>
+
+        {/* Title */}
+        <div className="glass-box backdrop-blur-sm rounded-2xl p-6 md:p-8 bg-white/[0.03] hover:bg-white/[0.01] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3),0_0_40px_rgba(255,255,255,0.2)] mb-8 md:mb-12">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-8">
+            zotbins
+          </h1>
+        </div>
+
+        {/* project overview */}
+        <div className="glass-box backdrop-blur-sm rounded-2xl p-6 md:p-8 bg-white/[0.03] hover:bg-white/[0.01] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3),0_0_40px_rgba(255,255,255,0.2)] mb-8 md:mb-12">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 md:mb-8">project overview</h2>
+
+          <div className="space-y-6 md:space-y-8">
+            <div>
+              <h3 className="text-lg md:text-xl font-medium mb-2">role</h3>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                ui/ux designer, graphic designer
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg md:text-xl font-medium mb-2">timeline</h3>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                2024 fall - 2025 winter quarter
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg md:text-xl font-medium mb-2">team</h3>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                angie xetey, kaylee doliente, grace jong
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg md:text-xl font-medium mb-2">about</h3>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                zotbins are smart waste bins that educate UCI students about where their waste goes. our goal is to combat the disposal of waste and increase waste diversion rates by creating a technology-based zero-waste management system
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* key features */}
+        <div className="glass-box backdrop-blur-sm rounded-2xl p-6 md:p-8 bg-white/[0.03] hover:bg-white/[0.01] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3),0_0_40px_rgba(255,255,255,0.2)] mb-8 md:mb-12">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 md:mb-8">key features</h2>
+
+          <div className="space-y-6 md:space-y-8">
+            <div className="flex gap-4">
+              <div className="text-[#ece1c9] text-sm md:text-base font-bold min-w-[3rem]">01</div>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                an in-app scanner to classify your waste items before you throw them away. every scan earns you points - reinforcing good waste diversion practices
+              </p>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="text-[#ece1c9] text-sm md:text-base font-bold min-w-[3rem]">02</div>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                a daily and weekly leaderboard campus-wide to compete with friends
+              </p>
+            </div>
+
+            <div className="flex gap-4">
+              <div className="text-[#ece1c9] text-sm md:text-base font-bold min-w-[3rem]">03</div>
+              <p className="text-[#ece1c9] text-sm md:text-base">
+                a quiz feature that tests you on environmental trivia to help you become environmentally-conscious
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="max-w-6xl mx-auto px-4 md:px-6 py-8 md:py-12 border-t border-zinc-200">
+        <p className="text-xs md:text-sm text-[#ece1c9]">
+          2026 grace jong
+        </p>
+      </footer>
+    </div>
+  );
+}
