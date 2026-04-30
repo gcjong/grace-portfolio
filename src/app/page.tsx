@@ -103,6 +103,23 @@ export default function Home() {
             {/* Projects */}
             <div className="flex-1 space-y-8 md:space-y-12">
               <div>
+                <Link href="/kith" className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
+                    <img src="/kithlogo.png" alt="Kith Logo" className="w-full h-full object-contain" />
+                  </div>
+                  <span className="text-lg md:text-xl font-medium mb-2 hover:underline cursor-pointer">
+                    kith
+                  </span>
+                </Link>
+                <p className="text-[#ece1c9] mb-2 text-base md:text-lg">
+                  a mobile app with one-tap updates and home screen widgets that keep you quietly connected to the people you care about, in the spaces between life's increasingly rare calls, texts, and visits
+                </p>
+                <p className="text-sm md:text-base text-[#ece1c9]">
+                  figma, ui/ux design, graphic design, product design, case study building, prototyping
+                </p>
+              </div>
+
+              <div>
                 <Link href="/knick-knack" className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
                     <img src="/kklogo.png" alt="Knick Knack Logo" className="w-full h-full object-contain" />
@@ -157,7 +174,11 @@ export default function Home() {
             {/* Timeline */}
             <div className="hidden md:block w-48 border-l border-zinc-300 pl-6">
               <h3 className="text-lg md:text-xl font-medium mb-6 md:mb-8">timeline</h3>
-              <div className="space-y-8 md:space-y-12">
+              <div className="space-y-12 md:space-y-16">
+                <div>
+                  <p className="text-sm md:text-base text-[#ece1c9] font-bold">2026</p>
+                  <p className="text-xs md:text-sm text-[#ece1c9]">kith</p>
+                </div>
                 <div>
                   <p className="text-sm md:text-base text-[#ece1c9] font-bold">2025</p>
                   <p className="text-xs md:text-sm text-[#ece1c9]">knick knack</p>
