@@ -13,7 +13,7 @@ export default function KithPage() {
         className="fixed top-0 left-0 w-full h-full object-cover -z-20"
         style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: -20, opacity: 0.85 }}
       >
-        <source src="/kithbackground.mp4" type="video/mp4" />
+        <source src="/newkith.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay */}
